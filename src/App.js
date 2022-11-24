@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter, Route, Routes } from "react-router-dom";
+import { PrincipalPage } from "./pages/PrincipalPage/PrincipalPage";
+import { CountriesPage } from "./pages/CountriesPage/CountriesPage";
+import { CountryDetailsPage } from "./pages/CountryDetailsPage/CountryDetailsPage";
+import { Error404Page } from "./pages/Error404Page/Error404Page";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<PrincipalPage></PrincipalPage>}></Route>
+
+        <Route
+          path="countries"
+          element={<CountriesPage></CountriesPage>}
+        ></Route>
+        <Route
+          path="countries/:countryName"
+          element={<CountryDetailsPage></CountryDetailsPage>}
+        ></Route>
+
+        <Route path="*" element={<Error404Page></Error404Page>}></Route>
+      </Routes>
+    </HashRouter>
   );
 }
 

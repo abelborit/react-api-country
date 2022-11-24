@@ -1,0 +1,27 @@
+.notFound-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.notFound-container-svg {
+  margin-top: -60px;
+  width: 90%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .notFound-container-svg {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .notFound-container-svg {
+    width: 60%;
+  }
+}
