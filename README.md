@@ -1,3 +1,21 @@
+# Revisa el proyecto terminado en: [React API Country](https://abelborit.github.io/react-api-country/)
+
+Este es un proyecto que utiliza la [API de REST Countries](https://restcountries.com/) para obtener los datos necesarios y mostarlos en distintas _cards_ o tarjetas donde a su vez al entrar a cada _card_ nos mostrará más información sobre cada elemento.
+
+Cuenta con:
+
+1. Funcionalidad en el proyecto
+1. Estilos CSS usando Grid y Flex
+1. Scroll Top Button para que a cierta distancia o recorrido de la página aparezca y nos lleve a la parte superior inicial de la misma
+1. Uso del API de REST Countries para obtener los datos necesarios
+1. Recorrido entre páginas
+
+## Comunícate conmigo:
+
+<a href="https://www.linkedin.com/in/abelborit/" target="_blank" rel="noopener noreferrer"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/abelborit/" height="30" width="40" /></a>
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
