@@ -33,6 +33,7 @@ a {
 
 .link-name a:hover {
   font-size: 1.5rem;
+  color: #287864;
 }
 
 .link-media a {
@@ -49,6 +50,7 @@ a {
 .link-media svg:hover {
   width: 30px;
   height: 30px;
+  fill: #287864;
 }
 
 .title {

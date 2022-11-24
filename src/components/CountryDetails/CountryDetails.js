@@ -61,7 +61,7 @@ export const CountryDetails = (props) => {
 
             <p className="card-info">
               <strong style={{ color: "#e0ac69" }}>Time Zone: </strong>
-              {elemento.timezones}
+              {elemento.timezones[0]}
             </p>
 
             <p className="card-info">
@@ -78,9 +78,6 @@ export const CountryDetails = (props) => {
       </div>
     );
   });
-
-  // console.log(countryData);
-  // console.log(currencies);
 
   return <>{contryDetailsCard}</>;
 };
